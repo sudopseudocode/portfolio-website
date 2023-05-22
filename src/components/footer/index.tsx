@@ -4,6 +4,6 @@ import styles from './footer.css?inline';
 export default component$(() => {
   useStylesScoped$(styles);
   return (
-    <footer>hi</footer>
+    <footer>footer</footer>
   );
 });
