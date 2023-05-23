@@ -1,3 +1,7 @@
+@import 'sanitize.css';
+
+@custom-media --md-viewport (max-width: 768px);
+
 :root {
   --dark-blue: #0E0827;
   --dark-blue-contrast: #1F294F;
