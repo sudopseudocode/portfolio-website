@@ -1,4 +1,41 @@
 .container {
-  background-color: var(--dark-blue);
   height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  position: relative;
+  color: var(--light-text-color);
+  background-color: var(--dark-blue);
+  z-index: 0;
+}
+.title-background {
+  color: var(--dark-blue-contrast);
+  font-size: 10rem;
+  line-height: 10rem;
+  text-transform: uppercase;
+  position: absolute;
+  top: 25vh;
+  margin: 0;
+  padding-left: 8vw;
+  z-index: -1;
+}
+.title-group {
+  padding-top: 32vh;
+  padding-left: 10vw;
+  flex: 1;
+
+  & h1 {
+    font-size: 3.75rem;
+    margin: 0;
+  }
+  & h2 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  & h3 {
+    margin: 0;
+    font-style: italic;
+  }
+}
+h1 {
+
 }
