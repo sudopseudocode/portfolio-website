@@ -1,20 +1,21 @@
-@import 'sanitize.css';
+@import "sanitize.css";
 
 @custom-media --md-viewport (max-width: 768px);
 
 :root {
-  --dark-blue: #0E0827;
-  --dark-blue-contrast: #1F294F;
-  --light-blue: #9DC7E2;
-  --light-blue-contrast: #C0D8E8;
-  --purple: #969BCC;
-  --light-text-color: #D7DFC2;
-  --header-font: 'Fjalla One', serif;
-  --body-font: 'Geo', serif;
+  --dark-blue: #0e0827;
+  --dark-blue-contrast: #1f294f;
+  --light-blue: #9dc7e2;
+  --light-blue-contrast: #c0d8e8;
+  --purple: #969bcc;
+  --light-text-color: #d7dfc2;
+  --header-font: "Fjalla One", serif;
+  --body-font: "Geo", serif;
   --padding: 4rem;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   font-family: var(--body-font);
