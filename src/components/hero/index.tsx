@@ -11,9 +11,8 @@ export default component$(() => {
         <h1>Paul DiLoreto</h1>
         <h2>Senior Software Engineer, ex-Twitter</h2>
         <h3>Currently working at DocuSign</h3>
+        <a class="contact-button" href="mailto:paul.diloreto@gmail.com">Contact me <ArrowForward /></a>
       </div>
-
-      <button>Contact me <ArrowForward /></button>
 
       <div class="contact-buttons">
         <a href="https://github.com/pauldiloreto">GH</a>

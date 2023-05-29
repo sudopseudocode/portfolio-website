@@ -5,7 +5,10 @@
   background-color: var(--dark-blue);
   z-index: 0;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
+
 .title-background {
   color: var(--dark-blue-contrast);
   font-size: 10rem;
@@ -24,10 +27,11 @@
     padding-left: 1.2rem;
   }
 }
+
 .title-group {
   padding-top: 30vh;
   padding-left: 11vw;
-  flex: 1;
+  flex-grow: 1;
 
   & h1 {
     font-size: 3.75rem;
@@ -46,8 +50,31 @@
       padding-top: 15vh;
       padding-left: 2rem;
     }
-    & h1 {
-
-    }
   }
+}
+
+.contact-button {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--dark-blue);
+  background-color: var(--light-blue);
+  display: inline-block;
+  padding: .5rem 1rem;
+  margin-top: 2rem;
+
+  & svg {
+    margin-left: .5rem;
+  }
+}
+
+.view-more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vertical-bar {
+  width: 1px;
+  height: 4rem;
+  background-color: var(--light-text-color);
+  margin: .5rem 0 1rem 0;
 }
