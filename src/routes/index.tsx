@@ -1,6 +1,6 @@
-import { component$ } from '@builder.io/qwik';
-import type { DocumentHead } from '@builder.io/qwik-city';
-import Hero from '~/components/Hero';
+import { component$ } from "@builder.io/qwik";
+import type { DocumentHead } from "@builder.io/qwik-city";
+import Hero from "~/components/Hero";
 
 export default component$(() => {
   return (
@@ -11,11 +11,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'PD Portfolio',
+  title: "PD Portfolio",
   meta: [
     {
-      name: 'description',
-      content: 'Qwik site description',
+      name: "description",
+      content: "Qwik site description",
     },
   ],
 };
