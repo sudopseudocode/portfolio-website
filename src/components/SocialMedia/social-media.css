@@ -1,0 +1,11 @@
+a {
+  text-decoration: none;
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+}

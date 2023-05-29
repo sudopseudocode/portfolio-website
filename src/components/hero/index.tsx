@@ -1,6 +1,7 @@
 import { component$, useStylesScoped$ } from '@builder.io/qwik';
 import styles from './hero.css?inline';
 import ArrowForward from '~/components/icons/ArrowForward';
+import SocialMedia from '~/components/SocialMedia';
 
 export default component$(() => {
   useStylesScoped$(styles);
@@ -14,9 +15,9 @@ export default component$(() => {
         <a class="contact-button" href="mailto:paul.diloreto@gmail.com">Contact me <ArrowForward /></a>
       </div>
 
-      <div class="contact-buttons">
-        <a href="https://github.com/pauldiloreto">GH</a>
-        <a href="https://linkedin.com/in/pauldiloreto">LI</a>
+      <div class="social-media-buttons">
+        <SocialMedia href="https://github.com/pauldiloreto" label="GH" />
+        <SocialMedia href="https://linkedin.com/in/pauldiloreto" label="LI" />
       </div>
 
       <div class="view-more">
