@@ -1,0 +1,29 @@
+.container {
+  min-height: 1000px;
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  grid-template-rows: 8rem 1fr 12rem 1fr 12rem;
+}
+.hero-transition {
+  background: linear-gradient(to bottom, var(--dark-blue), var(--light-blue));
+}
+.light-blue-bg {
+  background-color: var(--light-blue);
+}
+.transition {
+  background: linear-gradient(to bottom, var(--light-blue), var(--purple));
+}
+.purple-bg {
+  background-color: var(--purple);
+}
+.purple-transition {
+  background: linear-gradient(to bottom, var(--purple), var(--dark-blue));
+}
