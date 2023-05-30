@@ -1,5 +1,5 @@
 import { component$, useStylesScoped$ } from "@builder.io/qwik";
-import styles from "./work.css";
+import styles from "./work.css?inline";
 
 export default component$(() => {
   useStylesScoped$(styles);
