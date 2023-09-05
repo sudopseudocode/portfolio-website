@@ -35,7 +35,8 @@
     "./.eslintrc.cjs"
   ],
   "include": [
-    "src",
+    "**/*.ts",
+    "**/*.tsx",
     "./*.d.ts"
   ]
 }

@@ -23,6 +23,9 @@
   "devDependencies": {
     "@builder.io/qwik": "^1.1.4",
     "@builder.io/qwik-city": "^1.1.4",
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@commitlint/types": "^17.4.4",
     "@csstools/postcss-global-data": "2.1.0",
     "@types/eslint": "^8.40.0",
     "@types/node": "^20.1.4",
@@ -34,6 +37,7 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "5.0.0",
     "eslint-plugin-qwik": "^1.1.4",
+    "husky": "^8.0.3",
     "postcss": "^8.4.23",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-normalize": "^10.0.1",
