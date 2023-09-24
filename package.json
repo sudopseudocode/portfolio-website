@@ -51,5 +51,6 @@
   "dependencies": {
     "@fontsource/fjalla-one": "^5.0.1",
     "@fontsource/geo": "^5.0.1"
-  }
+  },
+  "packageManager": "yarn@3.6.3"
 }
